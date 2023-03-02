@@ -1,0 +1,129 @@
+.sub_main {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan_your_trip_container {
+    width: 90%;
+    height: 100%;
+}
+
+.plan_your_trip_container_upper {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.up1 {
+    width: 80%;
+    height: 100%;
+}
+
+.up2 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    font-weight: 500;
+    margin-top: 9px;
+}
+
+.direction {
+    width: 20px;
+    height: 24px;
+}
+
+.plan,
+.up2 {
+    color: #1262AE;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.popular {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #303030;
+}
+
+.plan_your_trip_container_down {
+    width: 100%;
+    height: 50%;
+}
+
+.down {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    left: 0;
+    right: 0;
+}
+
+.down_bg1,
+.down_bg2,
+.down_bg3,
+.down_bg4 {
+    width: 20%;
+    height: 260px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.down_bg1 {
+    background-image: url(/ParisImage.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.down_bg2 {
+    background-image: url(/GreeceImage.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.down_bg3 {
+    background-image: url(/NorwayImage.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.down_bg4 {
+    background-image: url(/TuscanyImage.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.top_text {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.right_top_big {
+    text-align: right;
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 38px;
+    color: white;
+}

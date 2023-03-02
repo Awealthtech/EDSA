@@ -1,0 +1,10 @@
+input {
+    accent-color: auto;
+    display: block;
+    width: 100px;
+    height: 30px;
+}
+
+input {
+    accent-color: rgb(231, 25, 15);
+}

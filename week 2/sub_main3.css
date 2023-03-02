@@ -1,0 +1,121 @@
+.sub_main3 {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.Popular_Stays_container {
+    width: 90%;
+    height: 100%;
+}
+
+.Popular_Stays_container_top {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Popular_Stays_container_gallery {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.Popular_Stays_container_gallery_sub{
+    width: 23%;
+    height: 100%;
+    padding: 10px;
+    border: solid 0.06px rgb(244, 239, 239);
+    border-radius: 10px;
+}
+.main_image {
+    width: 90%;
+    height:70%;
+    padding: 10px;
+    margin: 0%;
+} 
+
+label{
+    width: 90%;
+    height: 50%;
+}
+
+.Popular_Stays_container_top img {
+    width: 22px;
+    height: 24px;
+}
+
+.star{
+    width: 15px!important;
+    height: 14px;
+}
+
+ .play{
+    width: 20px;
+    height: 20px;
+}
+.figplay{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.biggest {
+    font-family: "roboto";
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+color: #303030;
+margin-bottom: 5px;
+}
+
+.first_caption{   
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.02em;
+color: #8E8E94;
+}
+
+span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.04em; 
+    color: #1262AF;  
+}
+
+.last_line{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.04em;
+color: #303030;
+}
+
+.more_details {
+    width: 90%;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+    letter-spacing: 0.46px;
+    text-transform: uppercase;
+    border: none;
+    color: #1262AF;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+}

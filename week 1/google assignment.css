@@ -1,0 +1,86 @@
+.container_head {
+    padding: 0;
+    margin-top: 100px;
+}
+
+
+.left_top {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(19, 19, 19);
+    text-align: right;
+    margin-top: 0px;
+    place-items: right;
+}
+
+pre {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+.blue {
+    color: rgb(98, 98, 199);
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.container_input {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 0px;
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    border: solid 1px rgb(26, 22, 22);
+    padding: 10px 8px;
+    background-color: rgb(250, 248, 248);
+    margin-top: -10px;
+    color: rgb(14, 10, 10);
+}
+
+.container_footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container_button {
+    place-items: center;
+    margin-left: 40%;
+    margin-right: 10%;
+}
+
+button {
+    color: rgb(7, 7, 7);
+    background-color: rgb(252, 251, 251);
+    margin-top: 20px;
+    border: none;
+
+}
+
+span {
+    color: rgb(12, 12, 12);
+}

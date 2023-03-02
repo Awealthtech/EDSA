@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.flickerflight.com</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="day3.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="sub_main.css">
+    <link rel="stylesheet" href=" sub_main2.css">
+    <link rel="stylesheet" href="sub_main3.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="foot_footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&family=Baloo+Bhaijaan+2:wght@800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="header_container">
+        <div class="header_content">
+            <img class="logo" src="/week 2/day 2/images/Combined-Shapeflickertop.png" />
+            <ul class="navigation">
+                <li class="nav">
+                    <a href="">Explore</a>
+                    <a href="">Search</a>
+                    <a href="">Hotels</a>
+                    <a href="">Offers</a>
+                </li>
+                <li class="icon">
+                    <i class="bell"><img src="images/Vectorbell.png"></i>
+                    <i class="profile"><img src="images/profile picture.png"></i>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="hero_container">
+            <h1 class="title">Let's explore & travel the world</h1>
+            <p class="subtitle">Find the best destinations and the most popular stays!</p>
+            <div class="input_field_container">
+                <div class="top_field_title">
+                    <h2>Search flight</h2>
+                    <div class="type_radio">
+                        <input id="Return" type="radio" name="flight" value="Return" />
+                        <label class="label_for_flight" for="Return">Return</label>
+                        <input id="one-way" type="radio" name="flight" value="One-way" />
+                        <label class="label_for_flight" for="one-way">one-way</label>
+                    </div>
+                </div>
+                <div class="input_field_select_container">
+                    <div class="fieldset_container">
+                        <fieldset>
+                            <legend value="Departure">Departure</legend>
+                            <select class="departure">
+                                <option value="Departure">Singapore (SIN)</option>
+                                <option value="Departure">Nigeria (N)</option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                            <legend value="Arrival">Arrival</legend>
+                            <select class="departure">
+                                <option value="Arrival">Los Angeles (LA)</option>
+                                <option value="Arrival">Nigeria </option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                            <legend value="Date">date</legend>
+                            <input class="departure" type="date" placeholder="01/05/2022" value="date">
+                        </fieldset>
+                        <div class="button_container">
+                            <button>Search flights</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- main body -->
+    <section class="main_body">
+        <div class="RECENT_search_container">
+            <p class="rec"> RECENT SEARCHES </p>
+            <div class="upperpart">
+                <div class="lax">
+                    <div class="uplax">
+                        <div class="sin_line">
+                            <p> SIN </p>
+                        </div>
+                        <div class="plane"><img src="/week 2/images/Durationmainflight.png"> </div>
+                        <div class="depart_date">
+                            <p>LAX</p>
+                        </div>
+                    </div>
+                    <div class="downlax">
+                        <p><strong>Depart on:</strong> 7 Sep 2021</p>
+                    </div>
+                </div>
+                <div class="Dub">
+                    <div class="upDub">
+                        <div class="dub_line">
+                            <p> MY </p>
+                        </div>
+                        <div class="plane"><img src="/week 2/images/Durationmainflight.png"></div>
+                        <div class="depart_date">
+                            <p>DUB</p>
+                        </div>
+                    </div>
+                    <div class="downDub">
+                        <p><strong>Depart on:</strong> 9 Sep 2021</p>
+                    </div>
+                </div>
+            </div>
+            <div class="prepare_trip_container">
+                <p>Prepare for your trip</p>
+                <div class="prepare_trip_gallery">
+                    <figure>
+                        <img class="gallery" src="/week 2/images/Hotel Icon.png">
+                        <figcaption>Hotel</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="gallery" src="/week 2/images/Attractions Icon.png">
+                        <figcaption>Attractions</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="gallery" src="/week 2/images/Eats Icon.png">
+                        <figcaption>Eats</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="gallery" src="/week 2/images/Commute icon.png">
+                        <figcaption>commute</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="gallery" src="/week 2/images/Taxi Icon.png">
+                        <figcaption>Taxi</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="gallery" src="/week 2/images/Movies icon.png">
+                        <figcaption>Movies</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- plan_your_next_trip -->
+    <section class="sub_main">
+        <div class="plan_your_trip_container">
+            <div class="plan_your_trip_container_upper">
+                <div class="up1">
+                    <p class="plan">Plan your next trip</p>
+                    <h3 class="popular">Most Popular Destinations</h3>
+                </div>
+                <div class="up2">
+                    <p>View all destinations</p>
+                    <img class="direction" src="/week 2/images/Groupdirection.png">
+                </div>
+            </div>
+            <div class="plan_your_trip_container_down">
+                <div class="down">
+                    <div class="down_bg1">
+                        <div class="top_text">
+                            <p class="left_top">Paris</p>
+                            <p class="right_top">FROM</p>
+                        </div>
+                        <p class="right_top_big">$699</p> 
+                    </div>
+                    <div class="down_bg2">
+                        <div class="top_text">
+                        <p class="left_top">Greece</p>
+                        <p class="right_top">FROM</p>
+                        </div>
+                        <p class="right_top_big">$1079</p> 
+                    </div>
+                    <div class="down_bg3">
+                        <div class="top_text">
+                         <p class="left_top">Norway</p>
+                        <p class="right_top">FROM</p>
+                        </div>
+                        <p class="right_top_big">$895</p> 
+                    </div>
+                    <div class="down_bg4">
+                        <div class="top_text">
+                        <p class="left_top">Tuscany</p>
+                        <p class="right_top">FROM</p>
+                        </div>
+                        <p class="right_top_big">$1245</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Recommended holiday -->
+    <section class="sub_main2">
+        <div class="recommeded_holiday_container">
+            <div class="recommeded_holiday_container_top">
+                <h3 class="popular">Recommended Holidays</h3>
+                <div class="up2">
+                    <p>View all holidays</p>
+                    <img class="direction" src="/week 2/images/Groupdirection.png">
+                </div>
+            </div>
+            <div class="gallery_part">
+                <div class="recommeded_holiday_container_gallery">
+                    <img src="/week 2/images/unsplash_5MV818tzxeo(1).png">
+                    <img src="/week 2/images/SwitzerlandImage.png">
+                    <img src="/week 2/images/BoracayImage.png">
+                    <img src="/week 2/images/PalawanImage.png">
+                </div>
+                <div class="sub_bottom">
+                    <div class="sub_bottom_container">
+                        <div class="left">
+                            <p class="black">Bali</p>
+                            <p class="grey">4D3N</p>
+                        </div>
+                        <div class="rate">
+                            <h4>$899</h4>
+                        </div>
+                    </div>
+                    <div class="sub_bottom_container">
+                        <div class="left">
+                            <p class="black">Bali</p>
+                            <p class="grey">4D3N</p>
+                        </div>
+                        <div class="rate">
+                            <h4>$899</h4>
+                        </div>
+                    </div>
+                    <div class="sub_bottom_container">
+                        <div class="left">
+                            <p class="black">Bali</p>
+                            <p class="grey">4D3N</p>
+                        </div>
+                        <div class="rate">
+                            <h4>$899</h4>
+                        </div>
+                    </div>
+                    <div class="sub_bottom_container">
+                        <div class="left">
+                            <p class="black">Bali</p>
+                            <p class="grey">4D3N</p>
+                        </div>
+                        <div class="rate">
+                            <h4>$899</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <!-- Popular Stays -->
+    <section class="sub_main3">
+        <div class="Popular_Stays_container">
+            <div class="Popular_Stays_container_top">
+                <h3 class="popular">Popular Stays</h3>
+                <div class="up2">
+                    <p>View all stays</p>
+                    <img class="direction" src="/week 2/images/Groupdirection.png">
+                </div>
+            </div>
+            <div class="Popular_Stays_container_gallery">
+                <div class="Popular_Stays_container_gallery_sub">
+                    <img class="main_image" src="/week 2/images/Matterhorn Suites Image.png">
+                    <div class="figplay">
+                        <figcaption class="first_caption">Entire bungalow</figcaption>
+                        <img class="play" src="/week 2/images/Groupplay.png">
+                    </div>
+                    <p class="biggest">Matterhorn Suites</p>
+                    <label>$575/night</label><br><br>
+                    <img class="star" src="/week 2/images/Vectorstar.png">
+                    <label class="last_line">4.9 <span>(60 reviews)</span></label><br>
+                    <button class="more_details">more_details</button>
+                </div>
+                <div class="Popular_Stays_container_gallery_sub">
+                    <img class="main_image" src="/week 2/images/Discovery Shores Imagediscovery.png">
+                    <div class="figplay">
+                        <figcaption class="first_caption">2-Story beachfront suite</figcaption>
+                        <img class="play" src="/week 2/images/Groupplay.png">
+                    </div>
+                    <p class="biggest">Discovery Shores</p>
+                    <label>$360/night</label><br><br>
+                    <img class="star" src="/week 2/images/Vectorstar.png">
+                    <label class="last_line">4.8 <span>(116 reviews)</span></label><br>
+                    <button class="more_details">more_details</button>
+                </div>
+                <div class="Popular_Stays_container_gallery_sub">
+                    <img class="main_image" src="/week 2/images/Arctic Hut Imagearctic_hut.png">
+                    <div class="figplay">
+                        <figcaption class="first_caption">Single deluxe hut</figcaption>
+                        <img class="play" src="/week 2/images/Groupplay.png">
+                    </div>
+                    <p class="biggest">Arctic Hut </p>
+                    <label>$420/night</label><br><br>
+                    <img class="star" src="/week 2/images/Vectorstar.png">
+                    <label class="last_line">4.7 <span>(78 reviews)</span></label><br>
+                    <button class="more_details">more_details</button>
+                </div>
+                <div class="Popular_Stays_container_gallery_sub">
+                    <img class="main_image" src="/week 2/images/Lake Louise Imagelakelouise.png">
+                    <div class="figplay">
+                        <figcaption class="first_caption">Deluxe King Room</figcaption>
+                        <img class="play" src="/week 2/images/Groupplay.png">
+                    </div>
+                    <p class="biggest">Lake Louise Inn</p>
+                    <label>$244/night</label><br><br>
+                    <img class="star" src="/week 2/images/Vectorstar.png">
+                    <label class="last_line">4.6 <span>(63 reviews)</span></label><br>
+                    <button class="more_details">more_details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer container -->
+    <section class="footer">
+        <div class="footer_main">
+            <div class="footer_main_container">
+                <div class="footer_main_container_top">
+                    <p class="paragraph">subscribe to our newsletter</p>
+                    <h3>Get weekly updates</h3>
+                </div>
+                <div class="form_PART">
+                    <div class="form_PART_alignment">
+                        <p class="formpart">Fill in your details to join the party!</p>
+                        <fieldset>
+                            <input type="text" placeholder="Your name">
+                        </fieldset>
+                        <fieldset>
+                            <input type="text" placeholder="Email address">
+                        </fieldset>
+                        <button class="footer_button">submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- foot footer -->
+    <section class="foot_footer">
+        <div class="foot_footer_main">
+            <div class="foot_footer_main_top">
+                <div class="foot_footer_main_top_left">
+                        <img class="foot_footer_main_top_left_logo" src="/week 2/images/Logo.png">
+                        <div class="foot_footer_main_top_left_body">
+                            <blockquote >Fickle Flight is your one-stop travel portal. We offer hassle free flight and 
+                                hotel bookings. We also have all your flight needs in you online shop.</blockquote>
+                        </div>
+                    <div class="foot_footer_main_top_left_bottom">
+                        <img class="footer_icon" src="/week 2/images/entypo-social_facebook-with-circle.png">
+                        <img class="footer_icon" src="/week 2/images/entypo-social_instagram-with-circle.png">
+                        <img class="footer_icon" src="/week 2/images/entypo-social_twitter-with-circle.png">  
+                    </div>
+                </div>
+                <hr>
+                <div class="foot_footer_main_top_rigt">
+                    <ul class="footer_list">
+                     <li class="list_heading">Company</li>
+                     <li class="list">About Us</li>
+                     <li class="list">News</li>
+                     <li class="list">Careers</li>
+                     <li class="list">How we work</li>
+                    </ul>
+                    <ul class="footer_list">
+                        <li class="list_heading">Support</li>
+                        <li class="list">Account</li>
+                        <li class="list">Support Center</li>
+                        <li class="list">FAQ</li>
+                        <li class="list">Accessibility</li>
+                    </ul>
+                    <ul class="footer_list">
+                        <li class="list_heading">More</li>
+                        <li class="list">Covid Advisory</li>
+                        <li class="list">Airline Fees</li>
+                        <li class="list">Tips</li>
+                        <li class="list">Quarantine Rules</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

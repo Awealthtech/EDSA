@@ -1,0 +1,48 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    grid-area: header;
+}
+
+.box2 {
+    grid-area: jehi;
+}
+
+.box3 {
+    grid-area: main;
+    background-color: aquamarine !important;
+}
+
+.box4 {
+    grid-area: right;
+}
+
+.box5 {
+    grid-area: footer;
+}
+
+.grid_container {
+    background-color: red; 
+    width: 100%;
+     height: 60vh; 
+    display: grid;
+    grid-template-areas: "jehi header header right right right"
+        "jehi main main right right right"
+        "jehi footer footer right right right";
+    gap: 10px;
+}
+
+.grid_container div {
+    background-color: white;
+    font-size: 80px;
+    border: solid 10px blue;
+    padding: 10px 0; */
+.rainbow {
+    position: absolute;
+    width: 7%;
+    height: 9vh;
+    background-image: conic-gradient(red, orange, yellow, green, blue,rgb(87, 8, 143),rgb(237, 119, 237), white);
+}

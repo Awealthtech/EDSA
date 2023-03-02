@@ -1,0 +1,57 @@
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color:#1877f2;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+.instruction {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    width: 50%;
+    font-weight: bold;
+}
+body {
+    background-color: #f0f2f5;
+}
+.input_container {
+    padding: 10px ;
+    place-items: center;
+}
+
+input {
+    padding: 10px 8px;
+    border-radius: 5px;
+    border-color: rgb(246, 246, 246);
+    box-shadow: #bbc9db;
+    margin: 10px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.input_fields {
+    display: grid;
+    margin-top: 40px;
+    place-items: center;
+}
+button {
+    background-color: #1877f2;
+    color: white;
+    width: 52%;
+    border: none;
+    padding: 10px 8px;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 5px;
+}
