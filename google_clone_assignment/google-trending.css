@@ -1,0 +1,141 @@
+.sub_main_container {
+    width: 70%;
+}
+
+h1 {
+    letter-spacing: 0;
+    font-size: 33px;
+    font-family: Google Sans, arial, sans-serif;
+    color: white;
+}
+
+.first_sub_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.sub_main,
+.search_session, .footer,
+.trend,
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+.trend{ margin-bottom: 20px;}
+
+.third_sub_main,
+.eight_sub_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.second_sub_main,
+.fourth_sub_main,
+.fifth_sub_main,
+.sixth_sub_main,
+.seventh_sub_main,
+.sub_main2,
+.sub_main3 {
+    border-bottom: 1px solid white;
+}
+
+.third_sub_container_left,
+.second_sub_main,
+.fourth_sub_main,
+.fifth_sub_main,
+.sixth_sub_main,
+.seventh_sub_main,
+.eight_sub_container_left,
+.sub_main2,
+.sub_main3 {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    font-family: arial, sans-serif;
+}
+
+.sub_mainempty {
+    color: #202124;
+}
+
+.enenche {
+    width: 110%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.grey,
+.sub_mainp {
+    color: rgb(215, 213, 213);
+    font-weight: normal;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sub_mainp{
+    margin-left: 40px;
+}
+
+.deep_black {
+    height: 40%;
+    background-color: black;
+}
+
+.language_footer {
+    height: 50%;
+    text-align: center;
+    font-size: 18px;
+    font-family: arial, sans-serif;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+    list-style: none;
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        letter-spacing: 0;
+        font-size: 20px;
+    }
+    .third_sub_container_left,
+.second_sub_main,
+.fourth_sub_main,
+.fifth_sub_main,
+.sixth_sub_main,
+.seventh_sub_main,
+.eight_sub_container_left,
+.sub_main3 {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    font-family: arial, sans-serif;
+}
+.grey,
+.sub_mainp {
+    color: rgba(215, 213, 213, 0.52);
+    font-weight: normal;
+    font-size: 9px;
+    font-weight: bold;
+}
+.language_footer {
+    font-size: 15px;
+}
+.sub_mainp {
+    font-size: 18px;
+}
+}

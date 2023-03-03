@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #202124;
+}
+
+.nav {
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav:hover {
+ text-decoration: underline;
+ color: blue;
+}
+
+.main {
+    width: 100vw;
+    height: 50vh;
+}
+
+.sub_main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer {
+    width: 100%;
+    height: 10vh;
+    margin-top: 40px;
+}
+
+.left_nav {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 50px;
+    gap: 50px;
+    color: white;
+    font-size: 23px;
+}
+
+.right_nav {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu1,
+.menu2,
+.search_icon,
+.google_lens,
+.voice, .mini_icon, .trend, .NApoli {
+    width: 40x;
+    height: 25px;
+}
+
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-image: conic-gradient(red 90deg,blue 45deg ,green 190deg,yellow 270deg);
+    z-index: 0;
+}
+.passport1 {
+    width: 32px;
+    height: 30px;
+    border-radius: 100%;
+    border: solid 5px ;
+ border-image: linear-gradient(red,blue,green,yellow) 30 ; 
+}
+
+.logo {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.google_logo {
+    width: 18%;
+    height: 60%;
+    margin: auto;
+    filter: brightness(0) invert(1);
+}
+
+.search-container {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.search_session {
+    width: 70%;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 25px;
+    border: solid 1px rgba(250, 243, 243, 0.398);
+}
+
+input{
+    width: 82%;
+    height: 90%;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+.language {
+    margin-top: 20px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 22px;
+    font-family: arial,sans-serif;
+}
+
+.language-container, .blue {
+    font-size: 20px;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    color: #89b3f6;
+    margin-top: 10PX;
+}
+
+/* media querry */
+
+@media all and (max-width: 450px) {
+    body {
+        background-color: #202124;
+    }
+    .google_logo {
+        width: 45%;
+        height: 45%;
+    }
+    .logo {
+        height: 40%;
+    }
+    .nav {
+        width: 90%;
+        height: 10vh;
+        transition: none;
+    }
+    .right_nav {
+        width: 10px;
+        height: 100%;
+        gap: 9px;
+    }
+    .left_nav {
+        width: 20px;
+        height: 100%;
+        gap: 20px;
+    }
+    .top {
+font-size: 13px;
+    }
+    .top:hover {
+        font-weight: 900;
+        color: blue;
+    }
+    .menu1,
+.menu2,
+.search_icon,
+.google_lens,
+.voice, .mini_icon, .trend, .NApoli {
+    width: 18px;
+    height: 17px;
+}
+.search_session {
+    width: 100%;
+    height: 40px;
+    gap: 30px;
+    border: solid 1px rgba(250, 243, 243, 0.398);
+}
+.search-container {
+    width: 90%;
+    height: 90px;
+    margin-left: 20px;
+}
+input{
+    width: 50%;
+    height: 90%;
+}
+.blue {
+    font-size: 12px;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    color: #89b3f6;
+    margin-top: 0;
+}
+p {
+    color: white;
+    font-size: 16px;
+    font-family: arial,sans-serif;
+    margin-top: 3px;
+}
+.main {
+    width: 100vw;
+    height: 40vh;
+}
+.language {
+    margin-top: 2px;
+}
+}
