@@ -134,6 +134,7 @@ a:-webkit-any-link {
 }
 .language_footer {
     font-size: 12px;
+    width: 100%;
 }
 .sub_mainp {
     font-size: 18px;
