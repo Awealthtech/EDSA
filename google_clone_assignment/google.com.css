@@ -193,7 +193,12 @@ font-size: 13px;
     .menu1,
 .menu2,
 .search_icon,
-.google_lens, .mini_icon, .trend, .NApoli {
+.google_lens, .mini_icon, .trend {
+    width: 14px;
+    height: 17px;
+}
+    
+     .NApoli {
     width: 17px;
     height: 17px;
 }
