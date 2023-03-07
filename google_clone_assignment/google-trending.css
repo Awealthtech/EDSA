@@ -64,6 +64,7 @@ a:-webkit-any-link {
 }
 
 .sub_mainempty {
+    height: 10px
     color: #202124;
 }
 
