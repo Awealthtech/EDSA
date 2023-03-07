@@ -24,7 +24,7 @@ a:-webkit-any-link {
     cursor: pointer;
 }
 
-.trend{ margin-bottom: 20px;}
+.trend{ margin-bottom: 10px;}
 
 .third_sub_main,
 .eight_sub_main {
@@ -53,11 +53,11 @@ a:-webkit-any-link {
 .eight_sub_container_left,
 .sub_main2,
 .sub_main3 {
-    height: 100px;
+    height: 90px;
     display: flex;
     align-items: center;
     gap: 60px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
     font-family: arial, sans-serif;
