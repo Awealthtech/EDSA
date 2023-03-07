@@ -26,7 +26,7 @@ body {
 
 .sub_main {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
 }
@@ -77,8 +77,8 @@ body {
     }
 
     .profile::after {
-        width: 34px;
-        height: 38px;
+        width: 32px;
+        height: 35px;
         background: url(images$google/240_F_428116625_7bpn1ZTdPnM2iYZgWUsqGIE5pvhUpGYn.jpg);
         background-position: center;
         background-repeat: no-repeat;
