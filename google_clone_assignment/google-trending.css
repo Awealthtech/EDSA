@@ -140,4 +140,14 @@ a:-webkit-any-link {
 .sub_mainp {
     font-size: 18px;
 }
+    
+    .trend{ margin-bottom: 10px;}
+    
+    .enenche {
+    width: 40px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+    
 }
