@@ -169,8 +169,9 @@ a:-webkit-any-link {
 
     .third_sub_main{
         display: flex;
-        /* justify-content: space-between; */
+        justify-content: space-between;
         align-items: center;
+        margin-left: 0px;
         border-bottom: 1px solid white;
         gap:\Awealthtech\EDSA\tree\main\google_clone_assignment 5px;
 
