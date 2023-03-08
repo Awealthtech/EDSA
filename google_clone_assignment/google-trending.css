@@ -17,16 +17,25 @@ h1 {
 }
 
 .sub_main,
-.search_session, .footer,
+.search_session,
+.footer,
 .trend,
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
 }
 
-.trend{ margin-bottom: 10px;}
+.trend {
+    margin-bottom: 10px;
+}
 
-.third_sub_main,
+.third_sub_main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
 .eight_sub_main {
     display: flex;
     justify-content: space-between;
@@ -64,7 +73,7 @@ a:-webkit-any-link {
 }
 
 .sub_mainempty {
-    height: 10px
+    height: 10px;
     color: #202124;
 }
 
@@ -82,7 +91,7 @@ a:-webkit-any-link {
     font-weight: bold;
 }
 
-.sub_mainp{
+.sub_mainp {
     margin-left: 40px;
 }
 
@@ -110,48 +119,58 @@ a:-webkit-any-link {
         letter-spacing: 0;
         font-size: 20px;
     }
-    .third_sub_container_left,
-.second_sub_main,
-.fourth_sub_main,
-.fifth_sub_main,
-.sixth_sub_main,
-.seventh_sub_main,
-.eight_sub_container_left,
-.sub_main3 {
-    height: 80px;
-    display: flex;
-    align-items: center;
-    gap: 60px;
-    font-size: 14px;
-    font-weight: bold;
-    color: white;
-    font-family: arial, sans-serif;
-}
-.grey,
-.sub_mainp {
-    color: rgba(215, 213, 213, 0.52);
-    font-weight: normal;
-    font-size: 9px;
-    font-weight: bold;
-}
-.language_footer {
-    font-size: 12px;
-    width: 100%;
-     gap: 20px;
-}
-.sub_mainp {
-    font-size: 18px;
-}
-    
-    .trend{
-        margin-top: 20px
-        margin-bottom: 10px;}
-    
-    .enenche {
-    width: 160%;
-    height: 30px;
-    border-radius: 5px;
-}
 
-    
+    .third_sub_container_left,
+    .second_sub_main,
+    .fourth_sub_main,
+    .fifth_sub_main,
+    .sixth_sub_main,
+    .seventh_sub_main,
+    .eight_sub_container_left,
+    .sub_main3 {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        font-family: arial, sans-serif;
+    }
+
+    .grey,
+    .sub_mainp {
+        color: rgba(215, 213, 213, 0.52);
+        font-weight: normal;
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+    .language_footer {
+        font-size: 12px;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .sub_mainp {
+        font-size: 18px;
+    }
+
+    .trend {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .enenche {
+        width: 80%;
+        height: 30px;
+        border-radius: 5px;
+    }
+
+    .third_sub_main{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-bottom: 1px solid white;
+    }
 }
