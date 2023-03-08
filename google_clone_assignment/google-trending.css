@@ -169,10 +169,11 @@ a:-webkit-any-link {
 
     .third_sub_main{
         display: flex;
-        justify-content: space-between;
-        /* align-items: center; */
+        /* justify-content: space-between; */
+        align-items: center;
         border-bottom: 1px solid white;
-        gap: 5px;
+        gap:\Awealthtech\EDSA\tree\main\google_clone_assignment 5px;
+
     }
 
     .first_sub_main {
