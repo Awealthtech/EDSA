@@ -174,7 +174,7 @@ p {
         transition: none;
     }
     
-    .nav:hover {
+ .nav:hover {
  text-decoration: underline;
  color: blue;
 }
@@ -188,14 +188,14 @@ p {
         height: 100%;
         gap: 20px;
     }
-    .top {
+   .top {
 font-size: 13px;
     }
     .top:hover {
         font-weight: 900;
         color: blue;
     }
-    .menu1,
+.menu1,
 .menu2,
 .search_icon,
 .google_lens, .mini_icon, .trend {
@@ -271,7 +271,17 @@ p {
     width: 100vw;
     height: 40vh;
 }
-.language {
+    .language {
     margin-top: 2px;
+    text-align: center;
+}
+
+
+.language-container, .blue {
+    font-size: 18px;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    color: #89b3f6;
+    margin-top: 3PX;
 }
 }
