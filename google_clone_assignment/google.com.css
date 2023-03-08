@@ -162,17 +162,22 @@ p {
         background-color: #202124;
     }
     .google_logo {
-        width: 45%;
+        width: 42%;
         height: 45%;
     }
     .logo {
-        height: 40%;
+        height: 50%;
     }
     .nav {
         width: 90%;
         height: 10vh;
         transition: none;
     }
+    
+    .nav:hover {
+ text-decoration: underline;
+ color: blue;
+}
     .right_nav {
         width: 10px;
         height: 100%;
