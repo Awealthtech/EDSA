@@ -30,6 +30,7 @@ a:-webkit-any-link {
 }
 
 .third_sub_main{
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
