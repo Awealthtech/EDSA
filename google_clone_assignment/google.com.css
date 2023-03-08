@@ -282,6 +282,10 @@ p {
     font-family: arial,sans-serif;
     text-decoration: none;
     color: #89b3f6;
-    margin-top: 3PX;
+    margin-top: 8PX;
+}
+    .language {
+    margin-top: 0px;
+    text-align: center;
 }
 }
