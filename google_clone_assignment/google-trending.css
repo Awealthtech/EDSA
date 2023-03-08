@@ -35,7 +35,7 @@ a:-webkit-any-link {
     justify-content: space-evenly;
     align-items: center;
     border-bottom: 1px solid white;
-    gap: 40px;
+    gap: 60px;
 }
 
 .eight_sub_main {
@@ -54,6 +54,9 @@ a:-webkit-any-link {
 .sub_main3 {
     border-bottom: 1px solid white;
 }
+
+.third_sub_container_left{
+    gap: 30px;}
 
 .third_sub_container_left,
 .second_sub_main,
