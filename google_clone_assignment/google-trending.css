@@ -170,7 +170,7 @@ a:-webkit-any-link {
     .third_sub_main{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        /* align-items: center; */
         border-bottom: 1px solid white;
         gap: 5px;
     }
