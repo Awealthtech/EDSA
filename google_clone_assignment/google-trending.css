@@ -29,7 +29,7 @@ a:-webkit-any-link {
     margin-bottom: 10px;
 }
 
-.third_sub_main{
+.third_sub_main {
     display: flex;
     justify-content: space-between;
     align-items: left;
@@ -54,8 +54,9 @@ a:-webkit-any-link {
     border-bottom: 1px solid white;
 }
 
-.third_sub_container_left{
-    gap: 100px;}
+.third_sub_container_left {
+    gap: 100px;
+}
 
 .third_sub_container_left,
 .second_sub_main,
@@ -85,6 +86,7 @@ a:-webkit-any-link {
     width: 110%;
     height: 50px;
     border-radius: 5px;
+    margin-top: 30px;
 }
 
 .grey,
@@ -172,7 +174,6 @@ a:-webkit-any-link {
         margin-top: 30px;
     }
 
-     
     .first_sub_main {
         margin-top: 10px;
     }
